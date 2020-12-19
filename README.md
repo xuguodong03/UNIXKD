@@ -2,7 +2,7 @@
 
 This repo is the implementation of CIFAR100 part in paper [Computation-Efficient Knowledge Distillation via Uncertainty-Aware Mixup](https://arxiv.org/abs/2012.09413).
 
-<img src="https://github.com/xuguodong03/UNIXKD/raw/main/frm.jpg" width="100%" height="100%">
+<img src="https://github.com/xuguodong03/UNIXKD/raw/master/frm.jpg" width="100%" height="100%">
 
 ## Prerequisite
 This repo is tested with Ubuntu 16.04.5, Python 3.7, PyTorch 1.5.0, CUDA 10.2.
@@ -43,11 +43,9 @@ The accuracies are slightly different from those in the paper. Average on 4 runs
 | Teacher <br> Student |    75.38 <br> 65.79    |    79.10 <br> 65.79    |    79.10 <br> 70.68    |    79.63 <br> 70.77     | 79.63 <br> 73.12 | 76.46 <br> 70.77 |
 | Ft/Fs | 38.17 | 174.00 | 13.56 | 27.16 | 23.49 | 8.22 |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|:-------------:|
-| KD | 67.94 | 68.33 | 73.43 | 74.52 | 75.07 | 76.04 |
-| Computation | 100% | 100% | 100% | 100% | 100% | 100% |
+| KD <br> Computation | 67.94 <br> 100% | 68.33 <br> 100% | 73.43 <br> 100% | 74.52 <br> 100% | 75.07 <br> 100% | 76.04 <br> 100% |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|:-------------:|
-| UNIXKD | 68.09 | 68.76 | 74.02 | 76.48 | 76.86 | 77.06 |
-| Computation | 77.49% | 75.57% | 81.43% | 78.43% | 78.92% | 84.79% |
+| UNIXKD <br> Computation | 68.09 <br> 77.49% | 68.76 <br> 75.57% | 74.02 <br> 81.43% | 76.48 <br> 78.43% | 76.86 <br> 78.92% | 77.06 <br> 84.79% |
 
 ### Simialr-Architecture
 
@@ -56,11 +54,9 @@ The accuracies are slightly different from those in the paper. Average on 4 runs
 | Teacher <br> Student |    76.46 <br> 73.64    |    76.46 <br> 72.24    |    73.44 <br> 69.63    |     79.63 <br> 72.51     | 75.38 <br> 70.68 |
 | Ft/Fs | 3.25 | 3.93 | 3.06  | 6.12 | 2.97 | 4.14 |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|:-------------:|
-| KD | 75.40 | 73.77 | 70.72 | 73.34 | 73.38 | 72.10 |
-| Computation | 100% | 100% | 100% | 100% | 100% | 100% |
+| KD <br> Computation| 75.40 <br> 100% | 73.77 <br> 100% | 70.72<br> 100% | 73.34 <br> 100% | 73.38 <br> 100% | 72.10 <br> 100% |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|:-------------:|
-| UNIXKD | 75.40 | 74.38 | 70.41 | 74.86 |73.55 | 73.06 |
-| Computation | 94.06% | 91.88% | 94.76% | 87.32% | 95.10% | 91.29% |
+| UNIXKD <br> Computation | 75.40 <br> 94.06% | 74.38 <br> 91.88% | 70.41 <br> 94.76% | 74.86 <br> 87.32% |73.55 <br> 95.10% | 73.06 <br> 91.29% |
 
 
 ## Citation
